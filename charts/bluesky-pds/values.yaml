@@ -6,7 +6,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/bluesky-social/pds
+  repository: ghcr.io/creaton-io/pds
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -14,7 +14,7 @@ image:
 pds:
   config:
     # -- The public hostname of your PDS
-    hostname: "pds.example.com"
+    hostname: "creaton.social"
     secrets:
       # -- Output of `openssl rand --hex 16`
       jwtSecret: ""
@@ -125,7 +125,6 @@ livenessProbe:
     path: /xrpc/_health
     port: pds-port
     #scheme: HTTP
-
 # TODO: Implement Readiness Probe
 # readinessProbe:
 #   httpGet:
