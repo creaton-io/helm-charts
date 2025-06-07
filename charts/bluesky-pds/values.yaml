@@ -9,7 +9,7 @@ image:
   repository: ghcr.io/creaton-io/pds
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "sha-3b9c95d23537f848138673f09316b457b7088e99"
+  tag: "sha-326502d6b3b6b6cd5591badef2fea40aee26653e"
 
 pds:
   config:
