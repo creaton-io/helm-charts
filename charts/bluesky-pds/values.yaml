@@ -6,10 +6,10 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/bluesky-social/pds
+  repository: ghcr.io/creaton-io/pds
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "sha-326502d6b3b6b6cd5591badef2fea40aee26653e"
 
 pds:
   config:
