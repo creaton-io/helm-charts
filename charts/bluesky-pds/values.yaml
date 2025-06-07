@@ -35,7 +35,8 @@ pds:
     reportSvcDid: "did:plc:ar7c4by46qjdydhdevvrndac"
     crawlers: "https://bsky.network"
     # -- From address for emails sent
-    pdsEmailFromAddress: ""
+    pdsEmailFromAddress: "general@creaton.social"
+    logEnabled: true
   # -- Persistent storage settings
   dataStorage:
     # -- How large of a PVC to make
